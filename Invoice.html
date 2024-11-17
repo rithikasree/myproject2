@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>invoice bill</title>
+</head>
+<style>
+    body{
+        .invoice-container {
+            width: 800px;
+            margin: auto;
+            border: 1px solid #000;
+            padding: 20px;
+        }
+        .left-section, .right-section {
+            width: 70%; /* Adjust as needed */
+            height: 20%;
+        }
+
+        .left-section {
+            text-align: left;
+        }
+
+        .right-section {
+            text-align: right;
+            width: 70%;
+            height: 70%;
+        }
+        
+    .signature-box {
+        width: 300px; /* Adjust the width as needed */
+        border-top: 1px solid black;
+        text-align: center;
+        padding-top:5px; /* Adjust spacing above text */
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        position:absolute;
+        right: 20%;
+        
+    }
+    .footer-text{
+        text-align: center;
+    }
+    .footer-text2{
+        text-align: center;
+        background-color: orange;
+        height: 20px;
+    }
+    .highlight {
+        font-size: 25px; 
+    }
+    .icontainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding: 20px;  
+            width: 98%;  
+}
+</style>
+</head>   <body>
+    <div class="invoice-container">
+        <table width="100%">
+            <tr>
+            <td align="center"><b><span class="highlight">RIVI</span></b>
+            </td> 
+            <td align="center"><strong><span class="highlight">Billing</strong></td>
+            <tr>
+                <td align="center"><b><span class="highlight">ATIS</span></b>
+                </td> 
+                <td align="center"><b><span class="highlight">Invoice</span></b></td>
+    </table>
+    <hr>
+    <div class="icontainer">
+        <!-- Left Section -->
+        <div class="left-section">
+            <p><strong>Rivi Atis</strong></p>
+            <p>Olymoia Industrial Area,</p>
+            <p>New Delhi - 0155678</p>
+            <p>Phone: 9758957955</p>
+            <p>GSTIN: 64808067080808</p>
+        </div>
+        <div class="right-section">
+            <!-- Right Section -->
+            <table border="2" width="100%">
+            <tr><td bgcolor="orange">INVOICE NO</td><td bgcolor="orange"> DATE</td></tr>
+            <tr><td>24356</td><td> 05-03-2021</td></tr>
+            <tr><td bgcolor="orange">CUSTOMER ID</td><td bgcolor="orange"> DUE DATE</td></tr>
+            <tr><td> UP98778</td><td> 04-04-2021</td></tr>
+            </table>
+        </div>    
+        </div>
+                    <table border="2" align="left" width="45%">
+                        <tr>
+                            <td bgcolor="orange" align="center">BILL TO</td>
+                        </tr>
+                        <tr>
+                            <td><b>TechGuruPlus</b><br>
+                                Sector-200, Noida, U.P<br>
+                                Uttar Pradesh<br>
+                                Phone: 8888888888<br>
+                                <b>GSTIN: 6969696969696969</b></td>
+                            
+                        </tr>
+                        <table border="2" align="right" width="45%">
+                            <tr>
+                                <td bgcolor="orange"align="center">SHIP TO
+                            </tr>
+                            <tr>
+                                <td><b>TechGuruPlus</b><br>
+                                    Sector-200, Noida, U.P<br>
+                                    Uttar Pradesh<br>
+                                    Phone: 8888888888<br>
+                                    <b>GSTIN: 6969696969696969</b></td>
+                            </tr>
+</table>
+</table>
+    <br><br>
+<br>
+                    <table border="2s" width="100%">
+                       <tr>
+                            <td width="5%" bgcolor="orange">SL.NO</td>
+                            <td width="40%" align="center" bgcolor="orange">ITEM</td>
+                            <td width="10%" bgcolor="orange">HSN NO</td>
+                            <td width="10%" bgcolor="orange">QTY</td>
+                            <td bgcolor="orange">UNIT RATE</td>
+                            <td bgcolor="orange">AMONUT</td>
+                        </tr>
+                        <tr>
+                            <td width="5%">1</td>
+                            <td width="40%" align="center">ITEM NAME1</td>
+                            <td width="10%">2516</td>
+                            <td width="10%">15</td>
+                            <td >RS.125.00</td>
+                            <td >Rs.1875.00</td>
+                        </tr>
+                        <tr>
+                            <td width="5%">2</td>
+                            <td width="40%" align="center">ITEM NAME 2</td>
+                            <td width="10%">2516</td>
+                            <td width="10%">26</td>
+                            <td >Rs.235.52</td>
+                            <td >Rs. 6,123.00</td>
+                        </tr>
+                        <tr>
+                            <td width="5%">3</td>
+                            <td width="40%" align="center">ITEM NAME 3</td>
+                            <td width="10%">4941</td>
+                            <td width="10%">34</td>
+                            <td >Rs. 657.00</td>
+                            <td >Rs. 35,567.00</td>
+                        </tr>
+                        <tr>
+                            <td width="5%">4</td>
+                            <td width="40%" align="center">ITEM NAME 4</td>
+                            <td width="10%">2543</td>
+                            <td width="10%">54</td>
+                            <td >Rs. 456.00</td>
+                            <td >Rs. 23,789.00</td>
+                        </tr>
+                        <tr>
+                            <td width="5%">5</td>
+                            <td width="40%" align="center">ITEM NAME 5</td>
+                            <td width="10%">7654</td>
+                            <td width="10%">45</td>
+                            <td >Rs. 214.00</td>
+                            <td >Rs. 5,674.00</td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="orange">TOTAL</td>
+                            <td colspan="5" align="right" bgcolor="orange">Rs. 77,035.78</td>
+                        </tr><br>
+                        <tr>
+                            <td align="right" colspan="4">SGST @ 12%<br>
+                                CGST @ 6%<br>
+                                DISCOUNT @ 0%<br>
+                            </td><br>
+                            <td colspan="2" align="right"> Rs.9,244.26<br>
+                            Rs.4,4622.13<br>
+                        Rs.0.00<br>
+                    </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="orange" align="right" colspan="5">PAYABLEAMOUNT</td>
+                            <td align="right" bgcolor="orange">Rs.90,902.00</td>
+                        </tr>
+                    </table>
+                    <p><strong>NOTE:-</strong><br>
+                        <ui>
+                        <li>Total payment due in 30 days.</li>   
+                        <li>Please include the Invoice number in your payment notes.</li> 
+                        </ui><br><br>
+                        <div class="signature-box">
+    Authorized Sign.
+    
+</div><br><hr>
+<div class="footer-text">
+<p><strong>If you have any queries for this Invoice please contact <br> 
+    [+91XXXXXXXXXX], example@mail.com</strong></p>
+    <hr>
+    </div>
+    <div class="footer-text2">
+    <p><strong> Will Do Our Best, Thank You For Your Business</p>
+</strong></p>
+    </div>
+</body>
+</html>
